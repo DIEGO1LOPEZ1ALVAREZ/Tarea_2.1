@@ -1,5 +1,11 @@
 body {
+<<<<<<< HEAD
+
+
+    background-image: linear-gradient(to left, #CFCBD2,#CB98ED,#8B63DA,#3C21B7);
+=======
     background: -webkit-linear-gradient(225deg, rgb(112, 31, 101), rgb(144, 36, 177));
+>>>>>>> a5ec825078a07dab39a40c8ec5f9f8b2ea896198
 }
 
 footer .footer {
@@ -16,7 +22,35 @@ footer .footer p {
     margin: auto auto auto 3px;
     font-style: italic;
 }
+<<<<<<< HEAD
+
+
+/*PARTE DE MARIANA EN EL CSS AQUI DI DISEÑO DE LA LETRA Y TAMAÑO DE IMAGENES*/
+.intro p
+{
+ text-align: justify;
+ text-align: center;
+}
+.intro h1
+{
+    color: white;
+    font-style: italic;
+}
+
+.intro h3
+{
+    color:white;
+    font-style: italic;
+}
+
+.tamañoimagen
+{
+    height: 280px;
+    width: 280px; 
+}
+=======
 .img250{
     height: 280px;
     width: 280px; 
 }
+>>>>>>> a5ec825078a07dab39a40c8ec5f9f8b2ea896198
