@@ -2,7 +2,7 @@ body
 {
 	color: white;
 	font-style:Comic Sans MS;
-	    background: -webkit-linear-gradient(225deg, rgb(112, 31, 101), rgb(144, 36, 177));
+	background-image: linear-gradient(to left, #CFCBD2,#CB98ED,#8B63DA,#3C21B7);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

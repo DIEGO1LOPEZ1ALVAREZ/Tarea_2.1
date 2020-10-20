@@ -1,12 +1,11 @@
 body {
     background-image: linear-gradient(to left, #CFCBD2,#CB98ED,#8B63DA,#3C21B7);
-    background: -webkit-linear-gradient(225deg, rgb(112, 31, 101), rgb(144, 36, 177));
-}
+   
 
 footer .footer {
     width: 100%;
     height: 100%;
-    font-size: 10px;
+    font-size: 15px;
     float: right;
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +44,30 @@ footer .footer p {
 .img250{
     height: 280px;
     width: 280px; 
+}
+
+
+
+/*AJUSTE EN EL DISEÑO DEL INDEX*/
+
+.tituloindex
+{
+    color: white;
+    
+}
+.descripcion p
+{
+    width: 50%;
+}
+.imagen1 
+{
+    border-radius: 20px;
+}
+
+.linea
+{
+    width:80%;  
+    background-color:white;
 }
 
 /*Sección para la pagina durabilidad*/
