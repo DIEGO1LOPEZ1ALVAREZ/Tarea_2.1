@@ -49,7 +49,7 @@ footer .footer p {
 
 /*Sección para la pagina durabilidad*/
 .Parte-Diego {
-    background: url('https://www.canalapps.com/wp-content/uploads/2020/08/fondos-de-pantalla-canalapps.jpg');
+    background: -webkit-linear-gradient(225deg, rgb(112, 31, 101), rgb(144, 36, 177));
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
