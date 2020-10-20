@@ -1,0 +1,49 @@
+body
+{
+	color: white;
+	font-style:Comic Sans MS;
+	background-image: linear-gradient(to left, #CFCBD2,#CB98ED,#8B63DA,#3C21B7);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.titulo
+{
+	font-style: Comic Sans MS;
+	font-size: 25px;
+}
+.linea
+{
+	width:80%;  
+	background-color:white;
+}
+.contenedor
+{
+	display: grid;
+	grid-gap:20px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas: "ventajas ventajas2";
+}
+.contenedor .ventajas
+{
+	grid-column-start: ventajas;
+}
+.contenedor .ventajas2
+{
+	grid-column-start: ventajas2;
+}
+.contenedor img
+{
+	margin-left: 25%;
+	width:300px;
+	height:250px; 
+}
+.contenedor h2
+{
+	text-align: center;
+}
+.contenedor li
+{
+	text-align: justify;
+	line-height:20px;
+}
