@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to left, #CFCBD2,#CB98ED,#8B63DA,#3C21B7);
-   
+}
 
 footer .footer {
     width: 100%;
@@ -61,7 +61,31 @@ footer .footer p {
 }
 .imagen1 
 {
+    background: url('http://www.unidiversidad.com.ar/cache_2/historia-del-celular_630_1140.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 20px;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+}
+.imagen1 div {
+    width: 40%;
+    height: 80%;
+    margin: 4px 0px 2px 0px;
+    background: linear-gradient(to left, #CFCBD2,#CB98ED,#8B63DA,#3C21B7);
+    transition: all 0.4s;
+    border-radius: 10px 4px;
+}
+.imagen1 div:hover {
+    background: #8B63DA;
+}
+.imagen1 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .linea
@@ -72,7 +96,7 @@ footer .footer p {
 
 /*Sección para la pagina durabilidad*/
 .Parte-Diego {
-    background: -webkit-linear-gradient(225deg, rgb(112, 31, 101), rgb(144, 36, 177));
+    background: linear-gradient(to left, #CFCBD2,#CB98ED,#8B63DA,#3C21B7);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,7 +123,7 @@ footer .footer p {
 .Parte-Diego .durabilidad-cuerpo {
     font-size: 14px;
     padding: 2px 10px 2px 10px;
-    color: #CB98ED;
+    color: #070202;
 }
 
 .Parte-Diego .forma-durabilidad img {
